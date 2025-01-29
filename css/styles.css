@@ -474,10 +474,8 @@ img {
   top: 0;
   left: 0;
   display: flex;
-  justify-content: center;
   align-items: center;
-  opacity: 1;
-  pointer-events: auto;
+  justify-content: center;
 }
 
 .overlay {
@@ -504,7 +502,25 @@ img {
   height: 24px;
   border-radius: 100%;
   background-color: #e7e9fc;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+}
+.modal-button:hover {
+  background-color: #404bbf;
+}
+.modal-button:hover .modal-icon {
+  fill: #ffffff;
 }
 .modal-icon {
   fill: #2e2f42;
+}
+.modal-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 16px;
 }
