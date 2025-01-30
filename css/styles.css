@@ -537,6 +537,9 @@ img {
   color: #2e2f42;
   margin-bottom: 16px;
 }
+.container-modal-list {
+  margin-bottom: 8px;
+}
 
 .label {
   display: block;
@@ -549,7 +552,6 @@ img {
 }
 .container-modal-item {
   position: relative;
-  margin-bottom: 8px;
 }
 .input {
   width: 100%;
