@@ -585,7 +585,6 @@ img {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   resize: none;
-  visibility: hidden;
 }
 .input-textarea:focus {
   border-color: #4d5ae5;
@@ -604,32 +603,39 @@ img {
 .label-checkbox {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.7;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   display: flex;
   align-items: center;
   gap: 8px;
 }
-.span-modal {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.4;
-  letter-spacing: 0.04em;
-  text-decoration: underline;
-  color: #4d5ae5;
-}
+
 .input-checkbox {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
+  visibility: hidden;
+}
+.span-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: transparent;
 }
 .button-modal {
   display: block;
-  margin: 12px auto;
+  margin: 0 auto;
   border: none;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   padding: 16px 32px;
   border-radius: 4px;
