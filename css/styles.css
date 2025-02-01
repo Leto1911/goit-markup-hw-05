@@ -610,18 +610,18 @@ img {
   align-items: center;
   gap: 8px;
 }
-
+.container-checkbox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
 .input-checkbox {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  visibility: hidden;
 }
 .span-modal {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 16px;
   height: 16px;
   border-radius: 2px;
